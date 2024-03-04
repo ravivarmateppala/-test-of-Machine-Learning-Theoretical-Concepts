@@ -1,4 +1,11 @@
- Cost Function?
+What is the difference between simple linear regression and multiple linear regression?
+Linear Regression
+Also called simple regression, linear regression establishes the relationship between two variables. Linear regression is graphically depicted using a straight line with the slope defining how the change in one variable impacts a change in the other. The y-intercept of a linear regression relationship represents the value of one variable when the value of the other is 0.
+
+Multiple Regression
+For complex connections between data, the relationship might be explained by more than one variable. In this case, an analyst uses multiple regression which attempts to explain a dependent variable using more than one independent variable.
+
+Cost Function?
 A cost function is an important parameter that determines how well a machine learning model performs for a given dataset. It calculates the difference between the expected value and predicted value and represents it as a single real number.
 
  "Cost function is a measure of how wrong the model is in estimating the relationship between X(input) and Y(output) Parameter."
@@ -10,7 +17,7 @@ do you interpret the coefficients in a linear regression model?
 In a linear regression model, the size of the coefficient for each independent variable gives you the size of the effect that variable is having on your dependent variable
 The sign on the coefficient (positive or negative) gives you the direction of the effect. A positive coefficient indicates that as the value of the independent variable increases, the mean of the dependent variable also tends to increase.
 
-
+What are the assumptions of linear regression?
 The assumptions of linear regression are:
 Linear relationship between the predictor(s) and the dependent variable
 Multivariate normality of the residuals
@@ -25,9 +32,9 @@ It is used for predicting the continuous dependent variable with the help of ind
 The goal of the Linear regression is to find the best fit line that can accurately predict the output for the continuous dependent variable.
 If single independent variable is used for prediction then it is called Simple Linear Regression and if there are more than two independent variables then such regression is called as Multiple Linear Regression
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
+How does logistic regression differ from linear regression?
 Linear Regression and Logistic Regression are the two famous Machine Learning Algorithms which come under supervised learning technique. Since both the algorithms are of supervised in nature hence these algorithms use labeled dataset to make the predictions. But the main difference between them is how they are being used. The Linear Regression is used for solving Regression problems whereas Logistic Regression is used for solving the Classification problems.
 
 
@@ -44,11 +51,8 @@ There are few metrics using which we can evaluate a logistic regression model, 1
 
 
 
-
-
-
-To avoid multicollinearity in logistic regression, you can:
-Remove some of the highly correlated independent variables.Linearly combine the independent variables, such as adding them together.Use partial least squares regression to create a set of uncorrelated components to include in the model.Use LASSO and Ridge regression, which are advanced forms of regression analysis that can handle multicollinearity.Use regularization, which adds an additional constraint on the weight vector and can handle multicollinearity.
+How do you handle multicollinearity in logistic regression?
+To avoid multicollinearity in logistic regression, you can Remove some of the highly correlated independent variables.Linearly combine the independent variables, such as adding them together.Use partial least squares regression to create a set of uncorrelated components to include in the model.Use LASSO and Ridge regression, which are advanced forms of regression analysis that can handle multicollinearity.Use regularization, which adds an additional constraint on the weight vector and can handle multicollinearity.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -56,7 +60,7 @@ Remove some of the highly correlated independent variables.Linearly combine the 
 What is the Naive Bayes algorithm based on?
 Naive Bayes is a machine learning algorithm that predicts the class of data based on probabilities
 
-Explain the concept of conditional probability in the context of Naive Bayes.
+Explain the concept of conditional probability in the context of Naive Bayes?
 Conditional Probability: When we try to calculate probability on a condition, i.e. probability of happening of event A when event B has already taken place
 
 What are the advantages and disadvantages of Naive Bayes?
